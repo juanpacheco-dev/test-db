@@ -14,10 +14,14 @@ form {
   display: flex;
   flex-direction: column;
   gap: 0.75rem;
-  background-color: #fff;
+  background-color:rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
   padding: 2rem;
   border-radius: 1rem;
   margin-bottom: 2rem;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
 }
 
 form input, form button{
@@ -28,7 +32,7 @@ form input, form button{
 }
 
 form button {
-  background: linear-gradient(135deg, #667eea, #764ba2);
+  background: linear-gradient(135deg, #86bbfc 0%, #60a5fa 35%, #2563eb 70%, #1e3a8a 100%);
   color: #fff;
   cursor: pointer;
   font-weight: 600;
